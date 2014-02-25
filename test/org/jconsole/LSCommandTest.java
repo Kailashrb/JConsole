@@ -32,10 +32,12 @@ public class LSCommandTest {
 	public void LSComTest()
 	{
 		try {
+			System.out.println("hi");
 			String [] args1 = new String[0];
 			String sampleFile = "Jconsole.xml";
 			LSCom.execute(args1);
 			String output=outContent.toString();
+			System.out.println("the ls command output is: "+output);
 			assertTrue(output.contains(sampleFile));
 			}catch (CommandFailedException e) {
 			e.printStackTrace();

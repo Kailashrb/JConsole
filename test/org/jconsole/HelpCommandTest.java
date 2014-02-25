@@ -4,6 +4,7 @@ import static org.junit.Assert.fail;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import java.util.HashMap;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -39,4 +40,23 @@ public class HelpCommandTest {
 		}
 		outContent.reset();
 	}
+    @Test
+    public void helpTestCmd(){
+        try {
+            String [] cmdName = {"cp"};
+            hcom.execute(cmdName);
+            String outPut = outContent.toString();
+            HashMap<String,String> helpMap = new HashMap<String, String>();
+            helpMap.put("cp","cp source destination");
+
+            Assert.assertTrue(outPut.contains("cp source destination"));
+
+        }catch (CommandFailedException e) {
+            e.printStackTrace();
+            fail("Exception was thrown");
+        }
+        outContent.reset();
+    }
+
+
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JConsole.iml" filepath="$PROJECT_DIR$/JConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jagg-code/jagg.iml" filepath="$PROJECT_DIR$/../jagg-code/jagg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jagg-code/jagg-core/jagg-core.iml" filepath="$PROJECT_DIR$/../jagg-code/jagg-core/jagg-core.iml" />
+    </modules>
+  </component>
+</project>
+
