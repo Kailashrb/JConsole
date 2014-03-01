@@ -7,17 +7,16 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
+import static org.junit.Assert.assertTrue;
 import java.io.PrintStream;
 
 
 public class HistoryCommandTest {
-
     static HistoryCommand historyCommand = new HistoryCommand();
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
     static String curDir = System.getProperty("user.dir");
-    static CPCommand CpCom = new CPCommand();
+    static LSCommand LSCom = new LSCommand();
 
     @Before
     public void setup(){
@@ -25,18 +24,19 @@ public class HistoryCommandTest {
         System.setErr(new PrintStream(errContent));
         JConsole jcon=JConsole.instance();
         jcon.setCurrentDir(curDir);
-        CpCom.setConsole(jcon);
+        jcon.processLine("ls");
+        //jcon.run();
+        LSCom.setConsole(jcon);
         try {
-            String srcDir = curDir + "/testResource/testDoc.txt";
-            String [] args1 = {srcDir, "."};
-            CpCom.execute(args1);
-            String destfile = args1[0].substring(args1[0].lastIndexOf("/"));
-            String destPath = curDir + destfile;
-            File f = new File(destPath);
-            if(!(f.exists())) {
-                fail("File not found");
-            }
-        }catch (CommandFailedException e) {
+            System.out.println("hwllo");
+            String [] args1 = new String[0];
+            String sampleFile = "Jconsole.xml";
+            LSCom.execute(args1);
+            String output=outContent.toString();
+            System.out.println("the out put of ls command is:"+output);
+            assertTrue(output.contains(sampleFile));
+        }
+        catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");
         }
@@ -51,7 +51,7 @@ public class HistoryCommandTest {
             String [] args1={"1"};
             historyCommand.execute(args1);
             String output=outContent.toString();
-            Assert.assertTrue(output.contains("help"));
+            Assert.assertTrue(output.contains("ls"));
         } catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");

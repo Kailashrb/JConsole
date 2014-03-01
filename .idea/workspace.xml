@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="99f7ff53-0dd3-424c-a4c2-7322e2ecb4a2" name="Default" comment="k">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jagg-code/Test Results - AvgAggregatorTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/jconsole/ConsoleCommand.java" afterPath="$PROJECT_DIR$/src/org/jconsole/ConsoleCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" afterPath="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" afterPath="$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jagg-code/pom.xml" afterPath="$PROJECT_DIR$/../jagg-code/pom.xml" />
     </list>
     <ignored path="JConsole.iws" />
@@ -144,37 +143,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" line="50" class="org.jconsole.HistoryCommandTest" package="org.jconsole">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/org/jconsole/HistoryCommand.java" line="16" class="org.jconsole.HistoryCommand" package="org.jconsole">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" line="26" class="org.jconsole.HistoryCommandTest" package="org.jconsole">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -311,15 +280,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QuitCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jconsole/QuitCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExitCommandTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -365,10 +325,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PingCommandTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PingCommandTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/jconsole/PingCommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="9" selection-start="783" selection-end="783" vertical-scroll-proportion="0.8920705" vertical-offset="0" max-vertical-offset="705">
+            <state line="8" column="0" selection-start="204" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistoryCommandTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="45" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.4889868" vertical-offset="303" max-vertical-offset="1005">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -379,8 +348,10 @@
       <file leaf-file-name="pingCommand.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/jconsole/commands/pingCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="47" selection-start="220" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <folding />
+            <state line="14" column="47" selection-start="220" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -435,13 +406,13 @@
         <option value="$PROJECT_DIR$/test/org/jconsole/HelpCommandTest.java" />
         <option value="$PROJECT_DIR$/../jagg-code/jagg-core/src/test/java/net/sf/jagg/test/msd/MyTestClass.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/ShowCommandTest.java" />
-        <option value="$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/HistoryCommand.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/QuitCommand.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/ConsoleCommand.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/PingCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" />
       </list>
     </option>
   </component>
@@ -737,7 +708,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.PingCommandTest">
+  <component name="RunManager" selected="JUnit.HistoryCommandTest">
     <configuration default="false" name="ShowCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JConsole" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -787,7 +758,9 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="ClsCommandTest.setHistoryCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -1000,10 +973,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ShowCommandTest" />
       </list>
     </recent_temporary>
@@ -1070,12 +1043,12 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22045153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2453125" sideWeight="0.6705298" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2453125" sideWeight="0.6705298" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6009934" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1087,6 +1060,32 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22045153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2453125" sideWeight="0.6705298" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.6009934" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2484375" sideWeight="0.6009934" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1401,15 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="24" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1005">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jconsole/QuitCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -1484,13 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jconsole/commands/pingCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="220" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jconsole/ConsoleCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="14" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="959" max-vertical-offset="2895">
@@ -1503,9 +1486,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jconsole/commands/pingCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="220" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jconsole/PingCommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="9" selection-start="783" selection-end="783" vertical-scroll-proportion="0.8920705" vertical-offset="0" max-vertical-offset="705">
+        <state line="8" column="0" selection-start="204" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="45" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.4889868" vertical-offset="303" max-vertical-offset="1005">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
