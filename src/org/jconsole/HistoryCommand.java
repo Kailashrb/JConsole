@@ -34,6 +34,7 @@ class HistoryCommand extends ConsoleCommand {
 									(HistoryEntry)cmdList.get(i-1) );
 		}
 
+
 	}
 
 	protected void initialize() throws Exception {

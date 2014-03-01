@@ -1,55 +1,51 @@
 package org.jconsole;
 
-import static org.junit.Assert.fail;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.PrintStream;
 
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
-public class HistoryCommandTest {
+/**
+ * Created by kailashbysani on 3/1/14.
+ */
+public class ShowCommandTest {
 
-    static HistoryCommand historyCommand = new HistoryCommand();
+    static ShowCommand showCommand = new ShowCommand();
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
-    static String curDir = System.getProperty("user.dir");
-    static CPCommand CpCom = new CPCommand();
+    static String myDir = System.getProperty("user.dir");
+    static LSCommand LSCom = new LSCommand();
 
     @Before
     public void setup(){
         System.setOut(new PrintStream(outContent));
         System.setErr(new PrintStream(errContent));
         JConsole jcon=JConsole.instance();
-        jcon.setCurrentDir(curDir);
-        CpCom.setConsole(jcon);
+        jcon.setCurrentDir(myDir);
+        LSCom.setConsole(jcon);
         try {
-            String srcDir = curDir + "/testResource/testDoc.txt";
-            String [] args1 = {srcDir, "."};
-            CpCom.execute(args1);
-            String destfile = args1[0].substring(args1[0].lastIndexOf("/"));
-            String destPath = curDir + destfile;
-            File f = new File(destPath);
-            if(!(f.exists())) {
-                fail("File not found");
-            }
+            //System.out.println("hi");
+            String [] args1 = new String[0];
+            LSCom.execute(args1);
         }catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");
         }
-        historyCommand.setConsole(jcon);
+        showCommand.setConsole(jcon);
     }
 
 
     @Test
-    public void setHistoryCommand()
+    public void setShowCommand()
     {
         try {
-            String [] args1={"1"};
-            historyCommand.execute(args1);
+            String [] args1=null;
+            showCommand.execute(args1);
             String output=outContent.toString();
             Assert.assertTrue(output.contains("help"));
         } catch (CommandFailedException e) {
@@ -58,4 +54,7 @@ public class HistoryCommandTest {
         }
         outContent.reset();
     }
+
+
+
 }
