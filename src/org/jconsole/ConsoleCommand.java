@@ -35,7 +35,7 @@ public abstract class ConsoleCommand {
 	}
 	
 	/** 
-	 *  @param in the InputStream, i.e. the source, closes the passed input stream 
+	 *  @param in the InputStream, i.e. the source, closes the passed input stream
 	 *  @param fn where to output the file (numbers are ok)
 	 */
 	protected final void fileForShow(InputStream in, String fn) {
@@ -79,7 +79,7 @@ public abstract class ConsoleCommand {
 		return s_showFile;
 	}
 
-	void setConsole(JConsole sim) {
+	protected void setConsole(JConsole sim) {
 		m_sim = sim;
 	}
 
