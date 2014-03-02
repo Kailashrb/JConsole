@@ -56,7 +56,7 @@ public class ClsCommandTest {
             String output = outContent.toString();
             String[] lineSplit = output.split(newLinePattern);
             int newlineCount = lineSplit.length;
-            Assert.assertFalse(newlineCount - lineCount == 50);
+            Assert.assertTrue(newlineCount - lineCount == 50);
         } catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");
