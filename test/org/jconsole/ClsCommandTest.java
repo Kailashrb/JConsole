@@ -19,6 +19,8 @@ public class ClsCommandTest {
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
     static String curDir = System.getProperty("user.dir");
     static LSCommand LSCom = new LSCommand();
+    private final String newLinePattern = System.getProperty("line.separator");
+    public int lineCount = 0;
 
     @Before
     public void setup() {
@@ -35,8 +37,9 @@ public class ClsCommandTest {
             String sampleFile = "Jconsole.xml";
             LSCom.execute(args1);
             String output = outContent.toString();
-            System.out.println("the out put of ls command is:" + output);
-            assertTrue(output.contains(sampleFile));
+            String[] lineSplit = output.split(newLinePattern);
+            lineCount = lineSplit.length;
+
         } catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");
@@ -51,7 +54,9 @@ public class ClsCommandTest {
             String[] args1 = {"1"};
             clsCommand.execute(args1);
             String output = outContent.toString();
-            Assert.assertFalse(output.contains("ls"));
+            String[] lineSplit = output.split(newLinePattern);
+            int newlineCount = lineSplit.length;
+            Assert.assertFalse(newlineCount - lineCount == 50);
         } catch (CommandFailedException e) {
             e.printStackTrace();
             fail("Exception was thrown");
