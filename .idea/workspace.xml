@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="99f7ff53-0dd3-424c-a4c2-7322e2ecb4a2" name="Default" comment="k">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../jagg-code/Test Results - AvgAggregatorTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java" afterPath="$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" afterPath="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../jagg-code/pom.xml" afterPath="$PROJECT_DIR$/../jagg-code/pom.xml" />
     </list>
     <ignored path="JConsole.iws" />
@@ -235,10 +235,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClsCommandTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClsCommandTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="44" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63619405" vertical-offset="544" max-vertical-offset="1080">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1080">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExitCommandTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="52" selection-start="907" selection-end="907" vertical-scroll-proportion="1.1563877" vertical-offset="0" max-vertical-offset="1170">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -327,15 +338,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExitCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/jconsole/ExitCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="37" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -361,11 +363,11 @@
         <option value="$PROJECT_DIR$/test/org/jconsole/ShowCommandTest.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/HistoryCommand.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/QuitCommand.java" />
-        <option value="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" />
         <option value="$PROJECT_DIR$/src/org/jconsole/ConsoleCommand.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/PingCommandTest.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/HistoryCommandTest.java" />
         <option value="$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java" />
       </list>
     </option>
   </component>
@@ -654,40 +656,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistory" value="reformat&#10;consolecomm&#10;JCons&#10;find&#10;optimi&#10;forma&#10;consol&#10;line ca&#10;run&#10;plugi&#10;activate ke&#10;a&#10;cp" />
+    <property name="SearchEverywhereHistory" value="reform&#10;reforma&#10;refact&#10;exitco&#10;reformat&#10;consolecomm&#10;JCons&#10;find&#10;optimi&#10;forma&#10;consol&#10;line ca&#10;run&#10;plugi&#10;activate ke&#10;a&#10;cp" />
     <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.ClsCommandTest">
-    <configuration default="false" name="ShowCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JConsole" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.jconsole" />
-      <option name="MAIN_CLASS_NAME" value="org.jconsole.ShowCommandTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExitCommandTest">
     <configuration default="false" name="HistoryCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JConsole" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -776,6 +752,28 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.jconsole" />
       <option name="MAIN_CLASS_NAME" value="org.jconsole.PingCommandTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExitCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JConsole" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.jconsole" />
+      <option name="MAIN_CLASS_NAME" value="org.jconsole.ExitCommandTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -920,19 +918,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShowCommandTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExitCommandTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShowCommandTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExitCommandTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ClsCommandTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ClsCommandTest.setHistoryCommand" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HistoryCommandTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PingCommandTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -997,7 +995,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22045153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22045153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1008,7 +1006,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2484375" sideWeight="0.6009934" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1082,7 +1080,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../jagg-code/jagg-core/src/test/java/net/sf/jagg/test/model/ComplexSumAggregator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.397436" vertical-offset="0" max-vertical-offset="0" />
+        <state line="10" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.397436" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jagg-code/jagg-core/src/test/java/net/sf/jagg/test/model/Record.java">
@@ -1376,15 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jconsole/ExitCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="37" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -1459,7 +1450,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jconsole/ClsCommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="44" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.63619405" vertical-offset="544" max-vertical-offset="1080">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1080">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jconsole/ExitCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="52" selection-start="907" selection-end="907" vertical-scroll-proportion="1.1563877" vertical-offset="0" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
