@@ -1,8 +1,4 @@
 package org.jconsole;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,17 +9,20 @@ import java.lang.System;
 
 import java.security.Permission;
 
+import java.security.Permission;
+
 /**
  * Created by kailashbysani on 3/1/14.
  */
-public class ExitCommandTest {
-    ExitCommand exitCommand = new ExitCommand();
+public class QuitCommandTest {
+
+    QuitCommand quitCommand = new QuitCommand();
 
     @Before
     public void setup() {
         System.setSecurityManager(new TestSecurityManager());
         JConsole jcon = JConsole.instance();
-        exitCommand.setConsole(jcon);
+        quitCommand.setConsole(jcon);
     }
 
 
@@ -31,7 +30,7 @@ public class ExitCommandTest {
     public void systemExitWithSelectedStatusCode() {
         try {
             String[] args1 = new String[0];
-            exitCommand.execute(args1);
+            quitCommand.execute(args1);
         } catch (Exception e) {
             // TODO: handle exception
             System.out.println("The erros code is :" + e.getMessage());
@@ -62,5 +61,4 @@ public class ExitCommandTest {
             // nothing forbidden
         }
     }
-
 }
