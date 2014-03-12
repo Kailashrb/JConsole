@@ -49,9 +49,9 @@ public class ClsCommandTest {
 
 
     @Test
-    public void setHistoryCommand() {
+    public void setClearScreenCommand() {
         try {
-            String[] args1 = {"1"};
+            String[] args1 = {""};//{"1"};
             clsCommand.execute(args1);
             String output = outContent.toString();
             String[] lineSplit = output.split(newLinePattern);

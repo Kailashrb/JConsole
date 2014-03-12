@@ -28,7 +28,7 @@ public class HistoryCommandTest {
         //jcon.run();
         LSCom.setConsole(jcon);
         try {
-            System.out.println("hwllo");
+           // System.out.println("hwllo");
             String [] args1 = new String[0];
             String sampleFile = "Jconsole.xml";
             LSCom.execute(args1);
